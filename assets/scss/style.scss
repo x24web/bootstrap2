@@ -1,45 +1,28 @@
 body{
-    background: #333;
-    color: #fff;
+   margin-top: 108px;
 }
 .navbar{
-    border-bottom: #008ed6 3px solid;
-    opacity: 0.8;
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff;
+    .nav-item{
+        font-size: 1.4rem;
+        padding-right: 1.4rem;
+    }
 }
-#home-section{
-    background: url(../img/home.jpg);
+.home-section{
+    background: url(../img/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px;
-    .dark-overlay{
+    min-height: 600px;
+    position: relative;
+    .shadow-overlay{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        min-height: 700px;
-        background: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        background: rgba(50, 146, 166, 0.8);
     }
-    .home-inner{
-        padding-top: 150px;
-    }
-      
-    .card-form{
-        opacity: 0.8;
-    }
-}
-#home-section .fas,
-#create-section .fas {
-  color: #008ed6;
-  background: #fff;
-  padding: 5px;
-  border-radius: 5px;
-}
 
-#explore-section .fas,
-#share-section .fas {
-  background: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
 }
